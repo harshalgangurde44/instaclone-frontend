@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  margin-top: 71px;
+  width: 700px;
+  height: 600px;
+  border-radius: 10px;
+}
+.first {
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: 100px;
+}
+
+.second {
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: 400px;
+}
+
+.third {
+  width: 100%;
+  height: 200px;
+}
+.threeDots {
+  /* width: 25%; */
+  text-align: right;
+  margin-top: -20px;
+  /* margin-left: 100px; */
+}
+.nameAndLocation {
+  display: flex;
+  flex-direction: column;
+  /* width: 50%; */
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.heartDateAndShare {
+  display: flex;
+  flex-direction: row;
+}
+.heart {
+  margin-left: 32px;
+  height: 32px;
+  width: 32px;
+  margin-top: 15px;
+}
+.share {
+  margin-left: 32px;
+  height: 32px;
+  width: 32px;
+  margin-top: 15px;
+}
+.date {
+  margin-left: 520px;
+  margin-top: 15px;
+  height: 32px;
+}
+.description {
+  text-align: left;
+  margin-left: 32px;
+  margin-top: 29px;
+}
+.likes {
+  text-align: left;
+  margin-top: 16px;
+  margin-left: 32px;
+}
+
+.dots {
+  margin-top: 5px;
+  margin-right: 28px;
+}
